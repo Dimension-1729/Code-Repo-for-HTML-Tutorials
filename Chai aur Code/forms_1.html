@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>body{
+        background-color: #414141;
+        text-align: center;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <!--clear text format in search query because we use GET, enctype = multipart means both images and text can be send in the form, novalidate = just submit/relay the information I will check it on server-->
+    <form action="" method="GET" accept-charset="UTF-8" autocapitalize="on" enctype="multipart/form-data" novalidate target="_blank">    
+
+
+    <!--Used for screen readers to tell there's an input element here , for is used for id in input to tell [Now when you click on label the input will be highlighted and selected.]-->
+    <label for="fname">First Name</label>   
+      
+
+    <input type="text" placeholder="first name" name="" id="fname">
+<br/>        
+    <label for="lname">Last Name</label>
+    <input type="text" name="" id="lname" placeholder="Last Name">
+<br/>
+    <button type="reset" >reset</button>
+    <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
