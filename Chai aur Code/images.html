@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://static.wixstatic.com/media/9a1813_17d15d00b55a4af5ae55e2be6723ba3a~mv2.jpg"
+    width="350px" alt="Shiva's snake">
+
+    <img src="./shiva/new.jpg" width="350px" height="450px"  alt="tradingview">
+
+    <picture>
+        <source media="(min-width:650px)" srcset="./images.jpeg"/>
+        <source media="(min-width:300px)" srcset="./shiva/new.jpg"/>
+        <img src="./../Bin/Thumb+Photo+Sign/pic.jpg" alt="Harmonics">
+    </picture>
+
+    <!-- Image Map Generator -->
+
+    <img src="./images.jpeg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_blank" alt="" title="" href="https://google.com" coords="38,13,121,55" shape="rect">
+    <area target="_blank" alt="" title="" href="https://bing.com" coords="95,146,112,95,150,159" shape="poly">
+</map>
+
+<img src="https://m.media-amazon.com/images/I/51ZGCIbrgFL._SL1280_.jpg" usemap="#image-map1">
+
+<map name="image-map1">
+    <area onclick="Nvidia()" alt="" title="" href="" coords="471,133,576,44" shape="rect">
+    <area onclick="Shield()" alt="" title="" href="" coords="598,588,90" shape="circle">
+</map>
+
+<script>
+    function Nvidia(){
+        alert("Nvidia Logo")
+    }
+    function Shield(){
+        alert("Shield Device")
+    }
+</script>
+</body>
+</html>
